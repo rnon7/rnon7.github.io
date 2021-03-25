@@ -1,0 +1,10 @@
+*{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background: lightskyblue;
+}
+
+h1{
+	font-size: 24px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #ddd;
+}
