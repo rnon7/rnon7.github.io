@@ -1,10 +1,133 @@
-*{
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	background: lightskyblue;
+* {
+	font-family:'SummerFont-Light','07やさしさゴシック', Arial, sans-serif;
+	background: rgba(0,0,0,0.1);
+	color: white;
+	margin: 0 auto;
 }
 
-h1{
-	font-size: 24px;
+header {
+	height: 200px;
+	text-align: center;
+	
+}
+
+body {
+	margin: 0;
+	background-image: url(Github-imgs/CitiesSkylines2.png);
+	background-attachment: fixed;
+	background-position: center center;		
+	background-size: cover;
+	text-align:center;
+}
+
+header h1 {
+	font-family: 'Allura';
+	font-size: 64px;
+	line-height: 100px;
 	padding-bottom: 8px;
-	border-bottom: 1px solid #ddd;
+	background: rgba(183, 220, 243,0);
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+header p {
+	font-family: 'aquafont';
+	font-size: 24px; 
+	margin: 0;
+	background: rgba(183, 220, 243,0);
+	color: white;
+}
+
+.yt {
+	padding: 32px;
+}
+
+.cities{
+	width: 120px;
+}
+.youtube {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid lightgray;
+	width: 400px;
+	background: rgba(20, 20, 20, 0.4);
+}
+
+.youtube p {
+	background: rgba(183, 220, 243,0.3);
+	border-radius: 8px;
+	line-height: 24px;
+	padding: 8px;
+	margin-bottom: 8px;
+}
+
+img {
+	width: 150px;
+}
+
+a {
+	padding-bottom: 40px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	width: 200px;
+}
+
+section {	
+	padding-top:24px;
+	border: 2px solid lightgray;
+	width: 400px;
+	margin-top: 32px;
+	background: rgba(20, 20, 20, 0.4);
+}
+.twitter {
+	padding-top:18px;
+}
+ .peing {
+	padding-top:18px;
+}
+
+section p {
+	font-family: 'keifont';
+	font-size: 32px;
+}
+
+footer {
+	align-items: center;
+	margin-top:30px;
+	padding-top: 30px;
+	background: rgba(20, 20, 20, 0.6);
+	border-radius: 20px;
+	width: 400px;
+	}
+
+footer > a {
+	padding-bottom: 40px;
+}
+
+.amazon {
+	padding-top: 18px;
+}
+
+.crypto {	
+	font-weight: bold;
+	font-family: '07やさしさゴシック';
+	text-align: center;
+	}
+
+.ETH {
+	margin-top:10px;
+	font-size:20px;
+}
+
+.address {
+	font-size:12px;
+	font-weight: bold;
+	margin: 10px auto 20px;
+}
+
+.pic:hover{
+	transform: scale(1.2,1.2);
+	transition-duration: .3s;
 }
